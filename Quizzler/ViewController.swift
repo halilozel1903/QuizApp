@@ -93,6 +93,8 @@ class ViewController: UIViewController {
     func startOver() {
        questionNumber = 0
         nextQuestion()
+        
+        updateUI()
     }
     
 
